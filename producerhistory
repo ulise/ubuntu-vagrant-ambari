@@ -1,0 +1,111 @@
+    1  sudo chown vagrant.vagrant .bash_history 
+    2  history 
+    3  opentsdb
+    4* tsdb~~~
+    5  find / | grep -i opentsadb
+    6  find / | grep -i opentsdb
+    7  find /var | grep -i opentsdb
+    8  find /usr | grep -i opentsdb
+    9  find /bin | grep -i opentsdb
+   10  find /bin 2>/dev/null | grep -i opentsdb 
+   11  find / 2>/dev/null | grep -i opentsdb 
+   12  ps ax
+   13  #
+   14  ls /root
+   15  sudo -s
+   16  ssh u1403
+   17  ssh u1402
+   18  ssh u1401
+   19  sudo -s
+   20  tsdb
+   21  sudo -s
+   22  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh
+   23  more /etc/passwd
+   24  sudo -s
+   25  cd /etc/default/
+   26  ls
+   27  ls -a
+   28  grep -R vagrant *
+   29  sudo grep -R vagrant *
+   30  sudo -s
+   31  cd
+   32  ls
+   33  pwd
+   34  ls -l
+   35  ls /root
+   36  sudo -s
+   37  /usr/hdp/2.4.3.0-227/kafka/bin/
+   38  cd/usr/hdp/2.4.3.0-227/kafka/bin/
+   39  cd /usr/hdp/2.4.3.0-227/kafka/bin/
+   40  ls
+   41  ./kafka-topics.sh 
+   42  history 
+   43  sudo -s
+   44  kafka 
+   45  ./kafka-topics.sh 
+   46  ./kafka-topics.sh --zookeper u1404
+   47  ./kafka-topics.sh --zookeeper u1404
+   48  ./kafka-topics.sh --zookeeper u1404:2181
+   49  ./kafka-topics.sh list --zookeeper u1404:2181
+   50  ./kafka-topics.sh --list --zookeeper u1404:2181
+   51  ./kafka-console-producer.sh --zookeeper u1404:2181
+   52  ./kafka-console-producer.sh 
+   53  ./kafka-console-producer.sh --broker-list u1402:9092 --topic topic3
+   54  ./kafka-console-producer.sh --broker-list u1404:9092 --topic topic3
+   55  hostname
+   56  more /etc/host
+   57  more /etc/hosta
+   58  more /etc/hosts
+   59  ./kafka-console-producer.sh --broker-list u1401.ambari.apache.org:9092 --topic topic3
+   60  ./kafka-console-producer.sh --broker-list localhost:9092 --topic topic3
+   61  ls
+   62* 
+   63  ./kafka-simple-consumer-shell.sh --broker-list localhost:9092 
+   64  ./kafka-simple-consumer-shell.sh --broker-list localhost:9092 topic3
+   65  ./kafka-simple-consumer-shell.sh --broker-list localhost:9092 --topic topic3
+   66  ./kafka-simple-consumer-shell.sh --broker-list localhost:9092 --topic topic3 --partition 1
+   67  ./kafka-simple-consumer-shell.sh --broker-list u1401:9092 --topic topic3 --partition 1
+   68  ./kafka-simple-consumer-shell.sh --broker-list u1402:9092 --topic topic3 --partition 1
+   69  ./kafka-simple-consumer-shell.sh --broker-list u1404:9092 --topic topic3 --partition 1
+   70  host u1404
+   71  ./kafka-console-producer.sh --broker-list u1401.ambari.apache.org:9092 --topic topic3
+   72  host u1401.ambari.apache.org
+   73  nslookup u1401.ambari.apache.org
+   74  vi /etc/networks
+   75  vi /etc/network/interfaces
+   76  host 192.168.14.104
+   77  ./kafka-console-producer.sh --broker-list 192.168.14.104:9092 --topic topic3
+   78  ./kafka-console-producer.sh --broker-list 192.168.14.103:9092 --topic topic3
+   79  ./kafka-console-producer.sh --broker-list 192.168.14.102:9092 --topic topic3
+   80  ssh u1301
+   81  ssh u1401
+   82  ./kafka-console-producer.sh --broker-list 192.168.14.102:6667 --topic topic3ssh 
+   83  netstat 
+   84  netstat -ab
+   85  netstat -a
+   86  ./kafka-console-producer.sh --broker-list localhost:6667 --topic topic3ssh 
+   87  ./kafka-console-producer.sh --broker-list localhost:6667 --topic topic3
+   88  ./kafka-simple-consumer-shell.sh --broker-list u1404:9092 --topic topic3 --partition 1
+   89  ./kafka-simple-consumer-shell.sh --broker-list u1404:6667 --topic topic3 --partition 1
+   90  ./kafka-simple-consumer-shell.sh --broker-list u1404:6667 --topic topic3 --partition 0
+   91  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3
+   92  ./kafka-console-consumer.sh --broker-list u1404:6667 --topic topic3
+   93  ./kafka-console-consumer.sh 
+   94  history | grep zookee
+   95  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3
+   96  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3 --from-beginning
+   97  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3 --from-beginning 
+   98  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3 --from-beginning --delete-consumer-offsets
+   99  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3
+  100  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3 --from-beginning --delete-consumer-offsets
+  101  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3
+  102  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3 --from-beginning --delete-consumer-offsets
+  103  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3
+  104  ifconfig
+  105  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3
+  106  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3 --property "parse.key=true" --property "key.separator=:"
+  107  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3 --from-beginning --delete-consumer-offsets
+  108  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3 --property "parse.key=true" --property "key.separator=:"
+  109  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3 
+  110  ./kafka-console-producer.sh --broker-list u1404:6667 --topic topic3 --property "parse.key=true" --property "key.separator=:"
+  111  history > /vagrant/producerhistory

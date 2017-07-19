@@ -1,0 +1,302 @@
+    1  find / | grep -i zook
+    2  find / | grep -i zkCli
+    3  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh
+    4  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh u1402
+    5  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh --server u1402
+    6  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh --server u1402 ls
+    7  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh -server u1402 ls
+    8  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh -server u1402 
+    9  history 
+   10  ps ax
+   11  ps ax | grep -i opentsdb
+   12  ls /vagrant/
+   13  ls /opt
+   14  cd /opt
+   15  tar xzvf /vagrant/apache-karaf-4.1.1.tar.gz 
+   16  ls -sd apache-karaf-4.1.1 karaf
+   17  ln -sd apache-karaf-4.1.1 karaf
+   18  cd karaf
+   19  bin/karaf 
+   20  java -version
+   21  which java
+   22  ls -l /usr/bin/java
+   23  ls -l /etc/alternatives/java
+   24  ls /usr/lib/jvm
+   25  ls /usr/lib/jvm/java-7-openjdk-amd64/
+   26  ls /usr/lib/jvm/java-7-openjdk-amd64/bin
+   27  /usr/lib/jvm/java-7-openjdk-amd64/bin/java
+   28  /usr/lib/jvm/java-7-openjdk-amd64/bin/java -version
+   29  ls /usr/lib/jvm/
+   30  export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
+   31  bin/karaf 
+   32  cd ..
+   33  rm  karaf
+   34  tar xzvf /vagrant/apache-karaf-4.0.9.tar.gz 
+   35  ln -sd apache-karaf-4.0.9 karaf
+   36  cd karaf
+   37  bin/karaf 
+   38  feature:install wrapper
+   39  bin/karaf 
+   40  cd ..
+   41  vi tmp
+   42  more tmp 
+   43  ln -s /opt/apache-karaf-4.0.9/bin/karaf-service /etc/init.d/
+   44  update-rc.d karaf-service defaults
+   45  /etc/init.d/karaf-service start
+   46  cd karaf
+   47  bin/client 
+   48  history 
+   49  cd
+   50  pwd
+   51  cd /root
+   52  ls
+   53  rm -rf opentsdb
+   54  cd /root
+   55  ls
+   56  cd opentsdb/
+   57  ls
+   58  cd build
+   59  ls
+   60  ls -l
+   61  ./tsdb 
+   62  ./tsdb version
+   63  tsdb uid
+   64  tsd uid
+   65  ls
+   66  tsdb uid
+   67  ./tsdb uid
+   68  ./tsdb uid grep
+   69  ./tsdb uid list
+   70  vi /etc/hbase/2.4.3.0-227/0/hbase-site.xml 
+   71  ping u1401.ambari.apache.org
+   72  ./tsdb uid list
+   73  hbase 
+   74  hbase shell
+   75  hbase shell zk_dump
+   76  hbase shell 
+   77  ps ax
+   78  ps ax | grep zk
+   79  ls /etc/init.d/
+   80  cd /var/lib/ambari-agent/
+   81  ls
+   82  find | grep open
+   83  find
+   84  find | grep tasb
+   85  find | grep tsdb
+   86  ls
+   87  find | more
+   88  ls
+   89  cd opentsdb/
+   90  ls
+   91  cd build
+   92  ls
+   93  vi config.status 
+   94  vi config.log 
+   95  ps ax
+   96  grep -R zkbasedir *
+   97  cd ..
+   98  grep -R zkbasedir *
+   99  cd
+  100  ./tsdb uid list
+  101  history 
+  102  cd /root/opentsdb/
+  103  ls
+  104  cd build
+  105  ls
+  106  ./tsdb shell
+  107  ./tsdb scan
+  108  history | grep -u tsdb
+  109  ./tsdb uid list
+  110  ps ax
+  111  ps ax | grep tsdb
+  112  ./tsdb --zkquorum=u1403.ambari.apache.org:2181 uid list
+  113  ./tsdb uid help
+  114  history 
+  115  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh
+  116  cd ..
+  117  find | grep -i crea
+  118  cd src/
+  119  ls
+  120  more create_table.sh 
+  121  hbase shell
+  122  ./create_table.sh 
+  123  which hbase
+  124  vi create_table.sh 
+  125  find /usr | grep hbase
+  126  find /usr | grep hbase | grep bin
+  127  export HBASE_HOME=/usr/hdp/2.4.3.0-227/hbase
+  128  ./create_table.sh 
+  129  hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase/data LZO
+  130  hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase LZO
+  131  hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase/test LZO
+  132  sudo -u hbase hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase/test LZO
+  133  sudo -u hdfs hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase/test LZO
+  134  sudo -u hdfs hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase/test lzo
+  135  sudo -u hdfs hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase/data lzo
+  136  hbase shell
+  137  hdfs
+  138  hdfs dfs ls
+  139  hdfs dfs -ls
+  140  hdfs dfs -ls /
+  141  hdfs dfs -ls /apps
+  142  hdfs dfs -ls /apps/hbase
+  143  hdfs dfs -ls /apps/hbase/data
+  144  hdfs dfs -ls /apps/hbase/data/data
+  145  hdfs dfs -ls /apps/hbase/data/data/hbase
+  146  sudo -u hdfs hbase org.apache.hadoop.hbase.util.CompressionTest hdfs://u1401.ambari.apache.org:8020/apps/hbase/data/data lzo
+  147  sudo -u hdfs hbase org.apache.hadoop.hbase.util.CompressionTest file:///tmp/testfile lzo
+  148  sudo apt-get install lzop
+  149  sudo -u hdfs hbase org.apache.hadoop.hbase.util.CompressionTest file:///tmp/testfile lzo
+  150  history 
+  151  export HBASE_HOME=/usr/hdp/2.4.3.0-227/hbase
+  152  cd opentsdb/
+  153  cd src/
+  154  ./create_table.sh 
+  155  cd
+  156  cd opentsdb/
+  157  cd build
+  158  ls
+  159  ./tsdb uid
+  160  ./tsdb uid grep
+  161  ./tsdb 
+  162  ./tsdb help
+  163  ./tsdb scan 
+  164  ./tsdb query
+  165  ./tsdb 
+  166  ./tsdb version
+  167  ./tsdb search
+  168  ./tsdb uid grep --zkbasedir=/hbase-unsecure
+  169  ./tsdb --zkbasedir=/hbase-unsecure uid grep
+  170  ./tsdb search --zkbasedir=/hbase-unsecure
+  171  ./tsdb search --zkbasedir=/hbase-unsecure lookup
+  172  ./tsdb uid 
+  173  ./tsdb mkmetric uli_hb
+  174  ./tsdb mkmetric uli_hb --zkbasedir=/hbase-unsecure
+  175  vi testdata
+  176  ./tsdb import testdata --zkbasedir=/hbase-unsecure
+  177  history | grep zoo
+  178  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh
+  179  set | grep envi
+  180  ls /etc
+  181  ls /etc/opt/
+  182  c /etc
+  183  cd /etc
+  184  grep -R user.dir *
+  185  cd
+  186  pwd
+  187  grep -R user.dir *
+  188  cd /etc/init.d/
+  189  ls
+  190  cd
+  191  ls
+  192  cd opentsdb/
+  193  ls
+  194  grep -R user.dir *
+  195  cd /root
+  196  ls
+  197  ls -a
+  198  vi .bashrc 
+  199  grep -R vagrant *
+  200  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh
+  201  cd
+  202  /usr/hdp/2.4.3.0-227/zookeeper/bin/zkCli.sh
+  203  pwd
+  204  cp /root/opentsdb/build
+  205  cp /root/opentsdb/build/ls
+  206  cd /root/opentsdb/build/
+  207  ls
+  208  cd src
+  209  ls
+  210  cd ..
+  211  cd --
+  212  pwd
+  213  cd /root/opentsdb/
+  214  cd src/
+  215  ls
+  216  cd ..
+  217  find | grep -i testdata
+  218  find / | grep -i testdata
+  219  cd --
+  220  ls -l
+  221  ls
+  222  cp opentsdb/build/testdata .
+  223  rm -rf opentsdb/
+  224  ls
+  225  pwd
+  226  ls -l
+  227  cd /root/opentsdb/
+  228  ls
+  229  cd build
+  230  history 
+  231  ./tsdb import /home/vagrant/testdata --zkbasedir=/hbase-unsecure
+  232  vi /home/vagrant/testdata 
+  233  ./tsdb import /home/vagrant/testdata --zkbasedir=/hbase-unsecure
+  234  date +%s
+  235  vi /home/vagrant/testdata 
+  236  ./tsdb import /home/vagrant/testdata --zkbasedir=/hbase-unsecure
+  237  vi /home/vagrant/testdata 
+  238  ./tsdb import /home/vagrant/testdata --zkbasedir=/hbase-unsecure
+  239  vi /home/vagrant/testdata 
+  240  ./tsdb uid grep --zkbasedir=/hbase-unsecure
+  241  ./tsdb uid grep uli --zkbasedir=/hbase-unsecure
+  242  ./tsdb scan uli_hb --zkbasedir=/hbase-unsecure
+  243  ./tsdb query uli_hb --zkbasedir=/hbase-unsecure
+  244  ./tsdb scan uli_hb --zkbasedir=/hbase-unsecure
+  245  tail /var/log/opentsdb
+  246  tail /var/log/opentsdb.log 
+  247  history | grep console
+  248  history 
+  249  cd /vagrant/
+  250  ls
+  251  java -jar camel-example-kafka-2.20.0-SNAPSHOT.jar 
+  252  java -cp camel-example-kafka-2.20.0-SNAPSHOT.jar org/apache/camel/example/kafkaMessagePublisherClient
+  253  java -cp camel-example-kafka-2.20.0-SNAPSHOT.jar org/apache/camel/example/kafka7MessagePublisherClient
+  254  java -cp camel-example-kafka-2.20.0-SNAPSHOT.jar org/apache/camel/example/kafka/MessagePublisherClient
+  255  which java
+  256  java -version
+  257  ls -l java
+  258  ls -l /usr/bin/java
+  259  ls -l /etc/alternatives/java
+  260  ls /usr/lib/jvm
+  261  find / | grep -i java
+  262  ls /usr/jdk64/
+  263  ls /usr/jdk64/jdk1.8.0_60/
+  264  set JAVA_HOME=/usr/jdk64/jdk1.8.0_60/
+  265  set JAVA_HOME=/usr/jdk64/jdk1.8.0_60
+  266  export JAVA_HOME=/usr/jdk64/jdk1.8.0_60
+  267  java -version
+  268  /usr/jdk64/jdk1.8.0_60/bin/java -cp camel-example-kafka-2.20.0-SNAPSHOT.jar org/apache/camel/example/kafka/MessagePublisherClient
+  269  cat /vagrant/consumerhistory 
+  270  cat /vagrant/consumerhistory | grep console
+  271  /usr/jdk64/jdk1.8.0_60/bin/java -cp "kafka-clients-0.9.0.2.4.3.0-227.jar:slf4j-api-1.7.21.jar:consumer-1.0-SNAPSHOT.jar" de.neusta.kafka.App
+  272  cd /vagrant/
+  273  /usr/jdk64/jdk1.8.0_60/bin/java -cp "kafka-clients-0.9.0.2.4.3.0-227.jar:slf4j-api-1.7.21.jar:consumer-1.0-SNAPSHOT.jar" de.neusta.kafka.App
+  274  grep console *
+  275  cd /usr/hdp/2.4.3.0-227/kafka/bin/
+  276  ./kafka-console-consumer.sh --zookeeper u1404:2181 --topic topic3
+  277  sudo -s
+  278  ps ax
+  279  ps ax | grep java
+  280  ps ax | grep karaf
+  281  cd /opt
+  282  cd apache-karaf-4.
+  283  cd apache-karaf-4.0.9/
+  284  ls
+  285  bin
+  286  cd bin
+  287  ls
+  288  ./shell 
+  289  ps ax | grep karaf
+  290  sudo ./shell 
+  291  ls /var/log/kafka/
+  292  tail -100f /var/log/kafka/server.log
+  293  cd
+  294  sudo service karaf-service restart
+  295  tail -100f /var/log/kafka/server.log
+  296  tail -100f /var/log/kafka/kafka.err 
+  297  ps ax | grep karaf
+  298  ls -l /opt/karaf
+  299  /opt/karaf/bin/shell 
+  300  sudo /opt/karaf/bin/shell 
+  301  history 
+  302  history > /vagrant/u1404.history
